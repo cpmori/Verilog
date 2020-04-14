@@ -9,32 +9,32 @@ z2
 cModel Technology
 Z0 d/afs/eos/lockers/workspace/ece/ece310/001/cpmori/Verilog/Lab4
 T_opt
-!s110 1586839683
-V@GNUZ:jcX6dfPdR[d2CSY1
+!s110 1586886850
+V8gAIPnX0b`Y_Ab:[Y@LA[1
 Z1 04 18 4 work parity2d_system_tb fast 0
-=1-0010186c7de2-5e954083-69de-3904
+=1-d4ae5271a9f4-5e95f8c2-71ed-2c8f
 o-quiet -auto_acc_if_foreign -work work
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;10.7c;67
 R0
 T_opt1
-!s110 1586875254
-VG^LWWn432B`;:XEo0G4no0
+!s110 1586889277
+VC<hGJ:D0;6=3WVl?2mYC:3
 R1
-=1-d4ae5271a9f4-5e95cb74-83281-674a
+=1-d4ae5271a9f4-5e96023d-599ce-3fb9
 o-quiet -auto_acc_if_foreign -work work +acc
 R2
 n@_opt1
 R3
 vcounter_tc
-Z4 !s110 1586839649
+Z4 !s110 1586889272
 !i10b 1
 !s100 bUSH=c?[m`JZRK8cJHj@z1
 I62LDWOA5ofgKPja@:[ke70
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z6 w1586836632
+Z6 w1586889263
 Z7 8parity2d_system.v
 Z8 Fparity2d_system.v
 L0 138
@@ -42,7 +42,7 @@ Z9 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z10 !s108 1586839649.000000
+Z10 !s108 1586889272.000000
 Z11 !s107 parity2d_system.v|
 Z12 !s90 parity2d_system.v|
 !i113 0
@@ -72,8 +72,8 @@ R2
 vparity2d_system_tb
 R4
 !i10b 1
-!s100 :Y?iVF5bZNG0UN?cDNZ6h3
-IGP5AEjD[Uh597z]z?PjU71
+!s100 4>cHa>`6d;fY[D0iLkCSA0
+IgdS:;eISVF4a]8OjREE6]2
 R5
 R0
 R6

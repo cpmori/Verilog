@@ -1,3 +1,6 @@
+# vsim -c -voptargs="+acc" parity2d_system_tb 
+# Start time: 14:34:37 on Apr 14,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 10.7c Aug 17 2018Linux 3.10.0-1127.el7.x86_64
 # //
 # //  Copyright 1991-2018 Mentor Graphics Corporation
@@ -11,5 +14,23 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# OpenFile vsim.wlf
-add wave -r vsim:/parity2d_system_tb/*
+# Loading work.parity2d_system_tb(fast)
+# Loading work.transmitter(fast)
+# Loading work.tx_datapath(fast)
+# Loading work.counter_tc(fast)
+# Loading work.parity_piso_reg(fast)
+# Loading work.even_pgen(fast)
+# Loading work.tx_controller(fast)
+# Loading work.receiver(fast)
+# Loading work.rx_datapath(fast)
+# Loading work.rx_controller(fast)
+#                  245: wrote    1101100101011111100101011111 to transmitter
+#                  665: received 1101100101011111100101011111 from receiver: CHECK OK
+#                  905: wrote    1101100101011111100101011111 to transmitter
+#                 1325: received 1101100101101111111101011111 from receiver: CHECK OK
+# ** Note: $stop    : parity2d_system.v(68)
+#    Time: 1505 ns  Iteration: 0  Instance: /parity2d_system_tb
+# Break in Module parity2d_system_tb at parity2d_system.v line 68
+# Stopped at parity2d_system.v line 68
+# End time: 14:34:48 on Apr 14,2020, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

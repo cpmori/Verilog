@@ -94,7 +94,7 @@ module parity2d_system_tb;
   // running counter; the numbers selected were arbitrary
   always @*
     if( en_err_inject )
-      if( err_cnt == 45  || err_cnt == 37 )
+      if( err_cnt == 37  || err_cnt == 38|| err_cnt == 45 || err_cnt== 46 )
         err_inject = 1;
       else
         err_inject = 0;
