@@ -11,219 +11,229 @@ Z0 d/afs/eos/lockers/workspace/ece/ece310/001/cpmori/Verilog/Lab4
 T_opt
 !s110 1586839683
 V@GNUZ:jcX6dfPdR[d2CSY1
-04 18 4 work parity2d_system_tb fast 0
+Z1 04 18 4 work parity2d_system_tb fast 0
 =1-0010186c7de2-5e954083-69de-3904
 o-quiet -auto_acc_if_foreign -work work
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
-OL;O;10.7c;67
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1586875254
+VG^LWWn432B`;:XEo0G4no0
+R1
+=1-d4ae5271a9f4-5e95cb74-83281-674a
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
 vcounter_tc
-Z2 !s110 1586839649
+Z4 !s110 1586839649
 !i10b 1
 !s100 bUSH=c?[m`JZRK8cJHj@z1
 I62LDWOA5ofgKPja@:[ke70
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1586836632
-Z5 8parity2d_system.v
-Z6 Fparity2d_system.v
+Z6 w1586836632
+Z7 8parity2d_system.v
+Z8 Fparity2d_system.v
 L0 138
-Z7 OL;L;10.7c;67
+Z9 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1586839649.000000
-Z9 !s107 parity2d_system.v|
-Z10 !s90 parity2d_system.v|
+Z10 !s108 1586839649.000000
+Z11 !s107 parity2d_system.v|
+Z12 !s90 parity2d_system.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-veven_pgen
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
+veven_pgen
+R4
 !i10b 1
 !s100 KNMD[>3lXg]A4k2z0maPO1
 ID3]<]G?jlXfXULRRGkHLU2
-R3
-R0
-R4
 R5
+R0
 R6
-L0 176
 R7
+R8
+L0 176
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vparity2d_system_tb
+R12
+!i113 0
+R13
 R2
+vparity2d_system_tb
+R4
 !i10b 1
 !s100 :Y?iVF5bZNG0UN?cDNZ6h3
 IGP5AEjD[Uh597z]z?PjU71
-R3
-R0
-R4
 R5
+R0
 R6
-L0 4
 R7
+R8
+L0 4
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vparity_piso_reg
+R12
+!i113 0
+R13
 R2
+vparity_piso_reg
+R4
 !i10b 1
 !s100 7Ih4>4;IS@eMgPmATN]`T0
 I4[[iDWTJHld;?:Nm2;=521
-R3
-R0
-R4
 R5
+R0
 R6
-L0 239
 R7
+R8
+L0 239
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vreceiver
+R12
+!i113 0
+R13
 R2
+vreceiver
+R4
 !i10b 1
 !s100 2Y5Q`OZM[^5>=@M[LBej^3
 Ib[zKN=mCe:ZU?R;@9gVnY0
-R3
-R0
-R4
 R5
+R0
 R6
-L0 479
 R7
+R8
+L0 479
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vrx_controller
+R12
+!i113 0
+R13
 R2
+vrx_controller
+R4
 !i10b 1
 !s100 3fP_XMPaN7`0_jZ:jXJ;j0
 I]TT;FEd]RRFWmLG:cz<9`2
-R3
-R0
-R4
 R5
+R0
 R6
-L0 601
 R7
+R8
+L0 601
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vrx_datapath
+R12
+!i113 0
+R13
 R2
+vrx_datapath
+R4
 !i10b 1
 !s100 1WYP?_0;>gWS9fz5:>L2l2
 I:EeceDG_cUlz>CPP;2?4B1
-R3
-R0
-R4
 R5
+R0
 R6
-L0 522
 R7
+R8
+L0 522
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vtransmitter
+R12
+!i113 0
+R13
 R2
+vtransmitter
+R4
 !i10b 1
 !s100 =d3UWOm`^i[]@RE4ROT`D1
 IZOfiXOENKhj@cR7IQnd>h2
-R3
-R0
-R4
 R5
+R0
 R6
-L0 192
 R7
+R8
+L0 192
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vtx_controller
+R12
+!i113 0
+R13
 R2
+vtx_controller
+R4
 !i10b 1
 !s100 ecjzfNROG7O0PkZ72zbc<0
 Ik@bafni4Kj6SNYi6]GiBb0
-R3
-R0
-R4
 R5
+R0
 R6
-L0 398
 R7
+R8
+L0 398
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
-vtx_datapath
+R12
+!i113 0
+R13
 R2
+vtx_datapath
+R4
 !i10b 1
 !s100 f?h?M_]_<L?M7ZPd`^LM71
 I2z@a^<l0N_aMi=QF6HHB?0
-R3
-R0
-R4
 R5
+R0
 R6
-L0 284
 R7
+R8
+L0 284
+R9
 r1
 !s85 0
 31
-R8
-R9
 R10
-!i113 0
 R11
-R1
+R12
+!i113 0
+R13
+R2
