@@ -1,8 +1,8 @@
 # vsim -c Hello_sim_tb 
-# Start time: 00:23:56 on Apr 14,2020
+# Start time: 00:35:38 on Apr 14,2020
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Error: Hello_sim_tb.v(23): Module 'adler32' is not defined.
 # Optimization failed
 # Error loading design
-# End time: 00:23:56 on Apr 14,2020, Elapsed time: 0:00:00
+# End time: 00:35:38 on Apr 14,2020, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
