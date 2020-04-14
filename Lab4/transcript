@@ -1,6 +1,3 @@
-# vsim -c parity2d_system_tb 
-# Start time: 00:48:02 on Apr 14,2020
-# ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 10.7c Aug 17 2018Linux 3.10.0-1127.el7.x86_64
 # //
 # //  Copyright 1991-2018 Mentor Graphics Corporation
@@ -14,14 +11,5 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# Loading work.parity2d_system_tb(fast)
-#                  245: wrote    1101100101011111100101011111 to transmitter
-#                  665: received 1101100101011111100101011111 from receiver: CHECK OK
-#                  905: wrote    1101100101011111100101011111 to transmitter
-#                 1325: received 1101100101001111101101011111 from receiver:    ERROR
-# ** Note: $stop    : parity2d_system.v(68)
-#    Time: 1505 ns  Iteration: 0  Instance: /parity2d_system_tb
-# Break at parity2d_system.v line 68
-# Stopped at parity2d_system.v line 68
-# End time: 00:48:08 on Apr 14,2020, Elapsed time: 0:00:06
-# Errors: 0, Warnings: 0
+# OpenFile vsim.wlf
+add wave -r vsim:/parity2d_system_tb/*
