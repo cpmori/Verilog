@@ -9,55 +9,34 @@ z2
 cModel Technology
 Z0 d/afs/eos/lockers/workspace/ece/ece310/001/cpmori/Verilog/Lab4
 T_opt
-!s110 1586839053
-VzP5RV<ET0F;;fcz?g7VL<0
+!s110 1586839683
+V@GNUZ:jcX6dfPdR[d2CSY1
 04 18 4 work parity2d_system_tb fast 0
-=1-0010186c7de2-5e953e0d-9ed4a-3492
+=1-0010186c7de2-5e954083-69de-3904
 o-quiet -auto_acc_if_foreign -work work
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7c;67
-vadler32_acc
-Z2 !s110 1586839041
+vcounter_tc
+Z2 !s110 1586839649
 !i10b 1
-!s100 8lcRiaD0@8j=0eVmU2W4W3
-IZmhlCD=>bLfiAN:5zL>Q03
+!s100 bUSH=c?[m`JZRK8cJHj@z1
+I62LDWOA5ofgKPja@:[ke70
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1586838285
-Z5 8HW8_retry.v
-Z6 FHW8_retry.v
-L0 1
+Z4 w1586836632
+Z5 8parity2d_system.v
+Z6 Fparity2d_system.v
+L0 138
 Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1586839041.000000
-Z9 !s107 parity2d_system.v|HW8_retry.v|
-Z10 !s90 HW8_retry.v|parity2d_system.v|
+Z8 !s108 1586839649.000000
+Z9 !s107 parity2d_system.v|
+Z10 !s90 parity2d_system.v|
 !i113 0
 Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vcounter_tc
-R2
-!i10b 1
-!s100 bUSH=c?[m`JZRK8cJHj@z1
-I62LDWOA5ofgKPja@:[ke70
-R3
-R0
-Z12 w1586836632
-Z13 8parity2d_system.v
-Z14 Fparity2d_system.v
-L0 138
-R7
-r1
-!s85 0
-31
-R8
-R9
-R10
-!i113 0
-R11
 R1
 veven_pgen
 R2
@@ -66,31 +45,10 @@ R2
 ID3]<]G?jlXfXULRRGkHLU2
 R3
 R0
-R12
-R13
-R14
-L0 176
-R7
-r1
-!s85 0
-31
-R8
-R9
-R10
-!i113 0
-R11
-R1
-vmodulus
-R2
-!i10b 1
-!s100 JS[z8d_E?I3Mh`VOT0I^I3
-IULbGEAVzaGZin8YagBIC_3
-R3
-R0
 R4
 R5
 R6
-L0 41
+L0 176
 R7
 r1
 !s85 0
@@ -108,9 +66,9 @@ R2
 IGP5AEjD[Uh597z]z?PjU71
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 4
 R7
 r1
@@ -129,9 +87,9 @@ R2
 I4[[iDWTJHld;?:Nm2;=521
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 239
 R7
 r1
@@ -150,9 +108,9 @@ R2
 Ib[zKN=mCe:ZU?R;@9gVnY0
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 479
 R7
 r1
@@ -171,9 +129,9 @@ R2
 I]TT;FEd]RRFWmLG:cz<9`2
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 601
 R7
 r1
@@ -192,9 +150,9 @@ R2
 I:EeceDG_cUlz>CPP;2?4B1
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 522
 R7
 r1
@@ -213,9 +171,9 @@ R2
 IZOfiXOENKhj@cR7IQnd>h2
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 192
 R7
 r1
@@ -234,9 +192,9 @@ R2
 Ik@bafni4Kj6SNYi6]GiBb0
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 398
 R7
 r1
@@ -255,9 +213,9 @@ R2
 I2z@a^<l0N_aMi=QF6HHB?0
 R3
 R0
-R12
-R13
-R14
+R4
+R5
+R6
 L0 284
 R7
 r1

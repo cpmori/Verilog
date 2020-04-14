@@ -1,5 +1,5 @@
 # vsim -c parity2d_system_tb 
-# Start time: 00:37:33 on Apr 14,2020
+# Start time: 00:48:02 on Apr 14,2020
 # ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 10.7c Aug 17 2018Linux 3.10.0-1127.el7.x86_64
 # //
@@ -23,5 +23,5 @@
 #    Time: 1505 ns  Iteration: 0  Instance: /parity2d_system_tb
 # Break at parity2d_system.v line 68
 # Stopped at parity2d_system.v line 68
-# End time: 00:37:41 on Apr 14,2020, Elapsed time: 0:00:08
+# End time: 00:48:08 on Apr 14,2020, Elapsed time: 0:00:06
 # Errors: 0, Warnings: 0
