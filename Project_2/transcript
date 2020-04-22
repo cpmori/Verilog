@@ -1,8 +1,6 @@
-# vsim -c hello_offset_tb 
-# Start time: 23:07:52 on Apr 21,2020
+# vsim -c -voptargs="+acc" Multi_msg_tb 
+# Start time: 02:45:45 on Apr 22,2020
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: adler32.v(40): (vopt-2241) Connection width does not match width of port 'divisor'. The port definition is at: adler32.v(100).
-# ** Warning: adler32.v(46): (vopt-2241) Connection width does not match width of port 'divisor'. The port definition is at: adler32.v(100).
 # //  ModelSim SE-64 10.7c Aug 17 2018Linux 3.10.0-1127.el7.x86_64
 # //
 # //  Copyright 1991-2018 Mentor Graphics Corporation
@@ -16,19 +14,38 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# Loading work.hello_offset_tb(fast)
+# Loading work.Multi_msg_tb(fast)
+# Loading work.adler32(fast)
+# Loading work.datapath(fast)
+# Loading work.modulus(fast)
+# Loading work.dff_rstval(fast)
+# Loading work.dff_rstval(fast__1)
+# Loading work.controller(fast)
+# Loading work.dff(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (32) for port 'divisor'. The port definition is at: adler32.v(101).
+#    Time: 0 ns  Iteration: 0  Instance: /Multi_msg_tb/DUT/D1/mod1 File: adler32.v Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (32) for port 'divisor'. The port definition is at: adler32.v(101).
+#    Time: 0 ns  Iteration: 0  Instance: /Multi_msg_tb/DUT/D1/mod2 File: adler32.v Line: 47
 #                    0:  checksum presently xxxxxxxx
 #                    5:  checksum presently 00000001
 #                  165:  checksum presently 00490049
-#                  245:  checksum presently 00f700ae
-#                  325:  checksum presently 0211011a
-#                  345:  checksum presently 03970186
-#                  425:  checksum presently 058c01f5
-# CHECKSUMS MATCH: PASS
-#                  445:  checksum presently 00000001
-# ** Note: $stop    : hello_offset_tb.v(121)
-#    Time: 570 ns  Iteration: 0  Instance: /hello_offset_tb
-# Break at hello_offset_tb.v line 121
-# Stopped at hello_offset_tb.v line 121
-# End time: 23:07:59 on Apr 21,2020, Elapsed time: 0:00:07
+#                  235:  checksum presently 00f700ae
+#                  305:  checksum presently 0211011a
+#                  315:  checksum presently 03970186
+#                  385:  checksum presently 058c01f5
+# First Checksum Matches
+#                  405:  checksum presently 00000001
+#                  485:  checksum presently 00580058
+#                  605:  checksum presently 011f00c7
+#                  655:  checksum presently 02580139
+#                  665:  checksum presently 03fd01a5
+#                  765:  checksum presently 06060209
+# Second Checksum Matches
+#                  785:  checksum presently 00000001
+# All messages passed
+# ** Note: $stop    : Multi_msg_tb.v(132)
+#    Time: 825 ns  Iteration: 0  Instance: /Multi_msg_tb
+# Break in Module Multi_msg_tb at Multi_msg_tb.v line 132
+# Stopped at Multi_msg_tb.v line 132
+# End time: 02:46:00 on Apr 22,2020, Elapsed time: 0:00:15
 # Errors: 0, Warnings: 2

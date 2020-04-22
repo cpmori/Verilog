@@ -32,7 +32,8 @@ module datapath(
 	output[31:0] checksum
 );
 
-	wire[15:0] old_A,old_B, next_A, next_B, sum_A, sum_B, new_A, new_B;
+	wire[15:0] old_A,old_B, next_A, next_B, new_A, new_B;
+	wire[16:0] sum_A,sum_B;
 	
 	assign sum_A = data + old_A;
 	assign sum_B = old_B + new_A;
@@ -96,15 +97,15 @@ module controller(
 endmodule
 	
 module modulus(
-	input[15:0] dividend,
-	input[15:0] divisor,
+	input[16:0] dividend,
+	input[16:0] divisor,
 	output[15:0] result
 );
-	wire[15:0] difference;
+	wire[16:0] difference;
 
 	assign difference = dividend - divisor;
 
-	assign result = (divisor > dividend) ? dividend : difference; 
+	assign result = (divisor > dividend) ? dividend[15:0] : difference[15:0]; 
 
 endmodule
 	
