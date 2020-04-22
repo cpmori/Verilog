@@ -108,12 +108,7 @@ module modulus(
 
 endmodule
 	
-	
-
-module modulus_tb;
-	
-endmodule	
-	
+		
 	
 	
 	
