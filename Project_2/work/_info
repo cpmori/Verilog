@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 d/afs/eos/lockers/workspace/ece/ece310/001/cpmori/Verilog/Project_2
 T_opt
-!s110 1587367601
-Vld^W9;z=16Y_;E=CHm:m:2
-04 15 4 work hello_offset_tb fast 0
-=1-0010186c7de2-5e9d4eb1-8d26e-25fc
+!s110 1587524850
+VXbm4b2VRP4fDH=oh9GaBN0
+04 12 4 work Hello_sim_tb fast 0
+=1-008cfa039b3c-5e9fb4f2-393f3-336c
 Z1 o-quiet -auto_acc_if_foreign -work work
 Z2 tCvgOpt 0
 n@_opt
@@ -27,16 +27,16 @@ R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
-!s110 1587524116
-V;^IkNWSgnk9C=V1k14VGk1
-04 12 4 work hello_str_tb fast 0
-=1-008cfa039b3c-5e9fb214-37aa5-2f5c
-o-quiet -auto_acc_if_foreign -work work +acc
+!s110 1587524873
+V<^3Sl1C>]@QjoiFYj8mk<2
+04 15 4 work hello_offset_tb fast 0
+=1-008cfa039b3c-5e9fb508-f2fc9-33b1
+R1
 R2
 n@_opt2
 R3
-R0
 vadler32
 Z4 !s110 1587366526
 !i10b 1
